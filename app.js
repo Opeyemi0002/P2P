@@ -5,8 +5,6 @@ import router from "./useroute/userroute.js";
 dotenv.config();
 dbConnect();
 
-
-
 const app = express();
 const PORT = process.env.Port || 3000;
 app.use(express.json());

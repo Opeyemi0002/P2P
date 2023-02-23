@@ -1,5 +1,5 @@
-import obtainToken from "../utility/obtaintokenfromheader.js";
-import verifyToken from "../utility/verifytoken.js";
+import obtainToken from "../token_folder/gettokenfromheader.js";
+import verifyToken from "../token_folder/verifytoken.js";
 
 const isLogin = (req,res,next) => {
     const token = obtainToken(req);

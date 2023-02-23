@@ -1,4 +1,5 @@
 import express from "express";
+import isLogin from "../middleware/islogin.js";
 import { registerController,loginController } from "../usercontroller/controller.js";
 const router= express.Router();
 
@@ -6,7 +7,9 @@ const router= express.Router();
 router.post('/register', registerController);
 
 //login User
-router.post('/login', loginController);
+router.post('/login', isLogin, loginController);
+
+//
 
 
 
