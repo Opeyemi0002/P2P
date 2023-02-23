@@ -1,0 +1,30 @@
+{
+  "name": "p2p",
+  "version": "1.0.0",
+  "type":"module",
+  "description": "A peer-to-peer (P2P) platform is a decentralized marketplace that allows users to buy and sell cryptocurrencies directly with other users without the need for an intermediary. In this platform, users can trade their crypto assets using various payment methods, such as bank transfers, online payment systems, and cash deposits, among others. The platform provides a secure and transparent trading environment, where transactions are executed using smart contracts that ensure fairness and security for all parties involved. With a P2P platform, users have more control over their funds and can enjoy lower transaction fees, faster transaction processing times, and increased privacy compared to traditional centralized exchanges.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Opeyemi0002/P2P.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Opeyemi0002/P2P/issues"
+  },
+  "homepage": "https://github.com/Opeyemi0002/P2P#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.3",
+    "nodemon": "^2.0.20"
+  }
+}
